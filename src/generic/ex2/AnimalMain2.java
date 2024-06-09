@@ -1,6 +1,7 @@
 package generic.ex2;
 
 import generic.animal.Animal;
+import generic.animal.Cat;
 import generic.animal.Dog;
 
 public class AnimalMain2 {
