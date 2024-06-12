@@ -14,5 +14,8 @@ public class MethodMain1 {
         Integer integer = GenericMethod.<Integer>numberMethod( 10 );
         Double integer2 = GenericMethod.<Double>numberMethod( 20.0 );
         System.out.println( "integer = " + integer );
+
+        String string = GenericMethod.stringMethod("ASd");
+        System.out.println( "string = " + string );
     }
 }

@@ -14,4 +14,9 @@ public class GenericMethod {
         System.out.println( "bound print:" + obj );
         return obj;
     }
+
+    public static <T> T stringMethod(T obj) {
+        System.out.println( "StringObj = " + obj );
+        return obj;
+    }
 }
