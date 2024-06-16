@@ -20,7 +20,6 @@ public class WildcardEx {
 
     }
 
-
     //?는 아무거나 다 들어올 수 있음을 의미한다. box<cat>, box<dog>, box<Object>도 들어올 수 있다.
     static void wildCardV1(Box<?> box) {
         System.out.println( "? = " + box.get() );
