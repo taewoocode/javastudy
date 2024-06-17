@@ -22,8 +22,14 @@ public class ArrayMain2 {
         int value = 4;
         addAtIndex(arr, index, value );
         System.out.println( Arrays.toString( arr ) );
-        
 
+        addLastIndex( arr, 5 );
+        System.out.println( Arrays.toString(arr) );
+
+    }
+
+    private static void addLastIndex(int[] arr, int newValue) {
+        arr[arr.length - 1] = newValue;
     }
 
     private static void addAtIndex(int[] arr, int index, int value) {
