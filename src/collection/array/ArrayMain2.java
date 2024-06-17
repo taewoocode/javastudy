@@ -39,7 +39,6 @@ public class ArrayMain2 {
         arr[index] = value; //인덱스에 위치에 value 삽입
     }
 
-
     private static void addFirst(int[] arr, int newValue) {
         for (int i = arr.length - 1; i > 0; i--) { //배열의 크기가 5 거기서 -1을 뺴줘야 index가 되기 때문이다.
             arr[i] = arr[i - 1]; //왼쪽에 있는 값 오른쪽에 대입
