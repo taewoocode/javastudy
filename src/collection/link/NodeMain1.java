@@ -13,6 +13,7 @@ public class NodeMain1 {
         System.out.println( "first.next.next.item = " + first.next.next.item );
 
         Node x = first;
+        //모든 노드 탐색하기
         while (x != null) {
             System.out.println( x.item );
             x = x.next;
